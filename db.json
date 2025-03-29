@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "description": "Description 1",
+      "date": "2021-01-01",
+      "location": "Location 1"
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "description": "Description 2",
+      "date": "2021-01-02",
+      "location": "Location 2"
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "description": "Description 3",
+      "date": "2021-01-03",
+      "location": "Location 3"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1743256544021",
+      "userId": 1,
+      "eventId": 2,
+      "eventTitle": "Event 2",
+      "status": "confirmed"
+    },
+    {
+      "id": "1743257041348",
+      "userId": 1,
+      "eventId": 1,
+      "eventTitle": "Event 1",
+      "status": "confirmed"
+    }
+  ]
+}
